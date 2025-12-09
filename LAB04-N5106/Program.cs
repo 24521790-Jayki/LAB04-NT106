@@ -1,4 +1,4 @@
-namespace LAB04_N5106
+namespace LAB04_NT106
 {
     internal static class Program
     {
