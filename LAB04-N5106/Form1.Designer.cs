@@ -1,4 +1,4 @@
-﻿namespace LAB04_N5106
+﻿namespace LAB04_NT106
 {
     partial class Form1
     {
@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             btnBai1 = new Button();
+            btnBai4 = new Button();
+            btnBai5 = new Button();
             SuspendLayout();
             // 
             // btnBai1
@@ -41,11 +43,33 @@
             btnBai1.UseVisualStyleBackColor = true;
             btnBai1.Click += button1_Click;
             // 
+            // btnBai4
+            // 
+            btnBai4.Location = new Point(563, 33);
+            btnBai4.Name = "btnBai4";
+            btnBai4.Size = new Size(94, 29);
+            btnBai4.TabIndex = 1;
+            btnBai4.Text = "Bài 4";
+            btnBai4.UseVisualStyleBackColor = true;
+            btnBai4.Click += btnBai4_Click;
+            // 
+            // btnBai5
+            // 
+            btnBai5.Location = new Point(563, 231);
+            btnBai5.Name = "btnBai5";
+            btnBai5.Size = new Size(94, 29);
+            btnBai5.TabIndex = 2;
+            btnBai5.Text = "Bài 5";
+            btnBai5.UseVisualStyleBackColor = true;
+            btnBai5.Click += btnBai5_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnBai5);
+            Controls.Add(btnBai4);
             Controls.Add(btnBai1);
             Name = "Form1";
             Text = "Form1";
@@ -55,5 +79,7 @@
         #endregion
 
         private Button btnBai1;
+        private Button btnBai4;
+        private Button btnBai5;
     }
 }
