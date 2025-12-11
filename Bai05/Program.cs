@@ -1,4 +1,6 @@
-namespace LAB04_N5106
+using LAB04_N5106;
+
+namespace Bai05
 {
     internal static class Program
     {
@@ -11,7 +13,7 @@ namespace LAB04_N5106
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Bai04());
+            Application.Run(new LAB04_N5106.Bai05());
         }
     }
 }
